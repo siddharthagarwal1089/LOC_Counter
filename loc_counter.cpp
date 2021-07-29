@@ -7,26 +7,8 @@ class InstructMsg{
 public:
 //PROXY FN BEGIN
     void startMsg(){
-        cout<<"\n---------------Welcome to the LOC Counter program---------------\n\n";
-        cout<<"Please note the points while entering the program/file name:\n";
-        cout<<"1. Do NOT provide the program/file name by command line argument. It is asked to enter below.\n";
-        cout<<"2. Enter the complete program/file name with enxtension and it should be less than 50 characters.\n";
-        cout<<"3. If wrong program/file name is entered, this code will terminate with a message to run the code again.\n\n\n";
-
-        cout<<"Please note the points regarding the program/file content and the output:\n\n";
-        cout<<"1. The input file MUST have 4 tags:\n";
-        cout<<"\ta. //PROXY BEGIN class_name    -> Before the starting of every class. (CLASS NAME is required)\n";
-        cout<<"\tb. //PROXY END class_name      -> After the ending of every class. (CLASS NAME is required)\n";
-        cout<<"\tc. //PROXY FN BEGIN            -> Before the starting of every method/fucntion in class. (METHOD NAME is not required)\n";
-        cout<<"\td. //PROXY FN END              -> After the ending of every method/fucntion in class. (METHOD NAME is not required)\n\n";
-
-        cout<<"2. These 4 specified tags should NOT be INDENTED, i.e any of them should NOT begin with tabs or spaces.\n";
-        cout<<"3. Program counts the commented lines also but does not count blank lines.\n";
-        cout<<"4. Proxy Name should NOT exceed 100 characters.\n";
-        cout<<"5. Proxy LOC considers //PROXY BEG....... and //PROXY EN....... also in the count.\n";
-        cout<<"6. Only Total LOC will be shown if the program/file does not contain the specified tags.\n\n";
-
-        cout<<"7. Consider this code file tags to get more familiar with the input file type.\n\n";
+        cout<<"\n---------------------Welcome to the LOC Counter program---------------------\n";
+        cout<<"Please go through the README file once to understand about the program.\n\n";
     }
 //PROXY FN END
 };
